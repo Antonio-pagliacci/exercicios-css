@@ -68,18 +68,4 @@ Este repositório está em constante crescimento com novos exercícios e página
 
 ---
 
-## 📂 Estrutura Recomendada de Pastas
 
-```bash
-📁 exercicios-css-html
-├── exercicio1-bloco-inline.html
-├── exercicio2-flex-layout.html
-├── exercicio3-sticky-fixed.html
-├── portal-noticias.html
-├── loja-sneakrs
-│   ├── index.html
-│   └── style.css
-├── museu-nacional
-│   ├── index.html
-│   └── style.css
-└── img/
