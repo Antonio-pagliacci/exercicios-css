@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ccc;
+  color: #030c5f;
+  padding: 10px;
+  font-size: 3rem;
+}
+#cabecalho img {
+  width: 250px;
+}
+#cabecalho h1 {
+  margin-right: 50px;
+}
+#menu {
+  background-color: #ccc;
+  width: 200px;
+  height: 90vh;
+  border: 1px solid #ddd;
+}
+#menu ul {
+  list-style: none;
+}
+#menu li {
+  padding: 10px;
+}
+#menu li:hover {
+  background-color: #ddd;
+}
+#menu img {
+  margin-top: 200px;
+  width: 100%;
+}
+#banner img {
+  width: 100%;
+}
+
+main {
+  margin: 10px auto;
+  width: 100%;
+  background-color: #ccc;
+  display: flex;
+  gap: 10px;
+}
+
+#cards {
+  width: 85%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  border-bottom: 2px solid #ccc;
+}
+.card h3,
+p {
+  margin-top: 20px;
+}
+
+.card img {
+  width: 300px;
+}
+
+.topo-footer {
+  margin: 10px auto;
+  width: 90%;
+  background-color: #ccc;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+footer {
+  background-color: #ccc;
+}
+.redes-sociais {
+  border-top: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.redes-sociais i {
+  font-size: 20px;
+  color: #000;
+}
+
+footer h4 {
+  text-align: center;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 910px) {
+  header h1 {
+    margin: 10px auto;
+    font-size: 50px;
+  }
+  header img {
+    display: none;
+  }
+  #cards {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px auto;
+  }
+  #menu li {
+    font-size: 14px;
+  }
+  footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .topo-footer {
+    grid-template-columns: repeat(1, 1fr);
+
+    padding: 20px;
+  }
+  .redes-sociais h3 {
+    font-size: 14px;
+  }
+  .item-topo {
+    width: 400px;
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,9 @@
+dimensão de páginas em px
+
+telas: braks points
+
+1920 / 1366 = full HD plus
+1280 = full HD 
+991 = tablet
+767 = tablet 
+400 = mobile até 360

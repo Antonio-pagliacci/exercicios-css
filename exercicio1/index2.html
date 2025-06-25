@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 2 CSS3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container-body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        background-color: #f80303;
+        justify-content: space-between;
+      }
+      .cabecalho {
+        position: fixed;
+        width: 100%;
+        background-color: #34495e;
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+      }
+      .container-secao {
+        margin-top: 40px;
+        background-color: #fff;
+        display: flex;
+        height: 100%;
+
+        
+      }
+      .menu {
+        background-color: #2c3e50;
+        width: 200px;
+        margin-top: 30px;
+        padding: 10px;
+        color: #fff;
+      }
+      .secoes {
+        background-color: #f4f4f4;
+        margin: 10px;
+        
+        
+        
+        
+      }
+      .secao {
+        margin: 10px;
+        background-color: blueviolet;
+        width: 500px;
+        padding: 10px;
+        height: 400px;
+      }
+      footer{
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-body">
+      <div class="cabecalho">
+        <h1>cabeçalho</h1>
+      </div>
+      <section class="container-secao">
+        <aside class="menu">menu</aside>
+
+        <div class="secoes">
+          <section class="secao">seção 1</section>
+          <section class="secao">seção 2</section>
+          <section class="secao">seçaõ 3</section>
+          <section class="secao">seçaõ 3</section>
+        </div>
+      </section>
+
+      <footer>rodape</footer>
+    </div>
+  </body>
+</html>

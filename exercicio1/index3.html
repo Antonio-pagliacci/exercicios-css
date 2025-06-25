@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-box{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    color: blue;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+.stick-header{
+    position: sticky;
+    background-color: aqua;
+    color: blue;
+    padding: 16px;
+    text-align: center;
+    top: 0;
+    /* garante que a div fique acima dos outros elemntos */
+    z-index: 100;
+}
+.content{
+    padding: 20px;
+    margin-top: 20px;
+}
+.section{
+    height: 400px;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: rgb(238, 223, 223);
+    border:2px solid #ddd;
+    border-radius: 8px;
+}
+    </style>
+</head>
+<body>
+    <div class="stick-header">Cabeçalho S  itck</div>
+    <div class="content">
+        <div class="section">seção 1</div>
+        <div class="section">seção 2</div>
+        <div class="section">seção 3</div>
+    </div>
+    <div class="fixed-box">TOPO</div>
+
+
+    
+    
+</body>
+</html>
